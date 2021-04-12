@@ -1,0 +1,19 @@
+.watermark{
+    position:fixed;
+    color:rgba(255, 255, 255, .5);
+    font:bold 30px 'philosophermedium', Tahoma, verdana, Arial;
+    left:0;
+    top:600px;
+    width:100%;
+    text-align:center;
+}
+.watermark:before, .watermark:after{
+    position:absolute;
+    content:attr(data-text);
+}
+.watermark:before{
+    left:50px;
+}
+.watermark:after{
+    right:50px;
+}

@@ -1,0 +1,134 @@
+.ticker{
+    position:fixed;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 32px;
+    width:100%;
+    min-height:30px;
+}
+.ticker .ticker{
+    background-color: transparent !important;
+}
+.ticker_title{
+    color: var(--white);
+    font-weight:bold;
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    top:0;
+    left: -1px;
+    bottom:0;
+    line-height:inherit;
+    padding-right:15px;
+    padding-left:15px;
+    z-index: 1111111;
+    text-transform: uppercase;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:2px 3px 10px rgba(0, 0, 0, .3);
+}
+.ticker_title.ltr{
+    left:auto;
+    right:-1px;
+    direction: rtl;
+}
+.ticker_content{
+    white-space: nowrap;
+    color: var(--white);
+    display: inline;
+    letter-spacing: 1px;
+}
+.ticker_content span{
+    padding-left:10px;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:2px 3px 10px rgba(0, 0, 0, .3);
+    display:inline-block;
+}
+.ticker_content span:before{
+    padding-right:10px;
+    content:'|';
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow:2px 3px 10px rgba(0, 0, 0, .3);
+}
+
+/* News Themes */
+.ticker.s1, .s1 .ticker_content span{
+    background-color:var(--s1-bg-color-1);
+}
+.s1 .ticker_title{
+    background-color:var(--s1-bg-color-2);
+}
+.ticker.s2, .s2 .ticker_content span{
+    background-color:var(--s2-bg-color-1);
+}
+.s2 .ticker_title{
+    background-color:var(--s2-bg-color-2);
+}
+.ticker.s3, .s3 .ticker_content span{
+    background-color:var(--s3-bg-color-1);
+    color:var(--dark-gray);
+}
+.s3 .ticker_title{
+    background-color:var(--s3-bg-color-2);
+}
+.ticker.s4, .s4 .ticker_content span{
+    background-color:var(--s4-bg-color-1);
+}
+.s4 .ticker_title{
+    background-color:var(--s4-bg-color-2);
+}
+.ticker.s5, .s5 .ticker_content span{
+    background-color:var(--s5-bg-color-1);
+    color:var(--dark-gray);
+}
+.s5 .ticker_title{
+    background-color:var(--s5-bg-color-2);
+}
+.ticker.s6, .s6 .ticker_content span{
+    background-color:var(--s6-bg-color-1);
+}
+.s6 .ticker_title{
+    background-color:var(--s6-bg-color-2);
+    color:var(--white);
+}
+.ticker.s7, .s7 .ticker_content span{
+    background-color:var(--s7-bg-color-1);
+}
+.s7 .ticker_title{
+    background-color:var(--s7-bg-color-2);
+}
+.ticker.s8, .s8 .ticker_content span{
+    background-color:var(--s8-bg-color-1);
+    color:var(--dark-gray);
+}
+.s8 .ticker_title{
+    background-color:var(--s8-bg-color-2);
+    color:var(--dark-gray);
+}
+.ticker.s9, .s9 .ticker_content span{
+    background-color:var(--s9-bg-color-1);
+}
+.s9 .ticker_title{
+    background-color:var(--s9-bg-color-2);
+}
+.ticker.s10, .s10 .ticker_content span{
+    background-color:var(--s10-bg-color-1);
+}
+.s10 .ticker_title{
+    background-color:var(--s10-bg-color-2);
+}
+.ticker.s11, .s11 .ticker_content span{
+    background-color:var(--s8-bg-color-1);
+    color:var(--dark-gray);
+}
+.s11 .ticker_title{
+    background-color:var(--s8-bg-color-2);
+    color:var(--dark-gray);
+}

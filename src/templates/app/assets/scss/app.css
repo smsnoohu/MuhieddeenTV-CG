@@ -1,0 +1,69 @@
+@import './fonts.css';
+body{
+    position: relative;
+    font:normal 16px 'poppinsregular', arial;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #ccc; */
+}
+*{
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Theme Colors */
+:root {
+  --white: #fff;
+  --black:#000;
+  --dark-gray:#333;
+  --s1-bg-color-1: #F06D06;
+  --s1-bg-color-2: #10992e;
+  --s2-bg-color-1: #9e1414;
+  --s2-bg-color-2: #d01e1e;
+  --s3-bg-color-1: #333;
+  --s3-bg-color-2: #fff;
+  --s4-bg-color-1: #795aac;
+  --s4-bg-color-2: #150a47;
+  --s5-bg-color-1: #E29578;
+  --s5-bg-color-2: #FFDDD2;
+  --s6-bg-color-1: #83C5BE;
+  --s6-bg-color-2: #006D77;
+  --s7-bg-color-1: #41C04D;
+  --s7-bg-color-2: #56832C;
+  --s8-bg-color-1: #transparent;
+  --s8-bg-color-2: #transparent;
+  --s9-bg-color-1: #1597bb;
+  --s9-bg-color-2: #150e56;
+  --s10-bg-color-1: #1fb5ad;
+  --s10-bg-color-2: #0b6965;
+}
+/* Font Styles */
+.ar1{
+  font-family:'AmiriRegular' !important;
+}
+.ar2{
+  font-family:'AmiriBold' !important;
+}
+.ar3{
+  font-family:'AmiriItalic' !important;
+}
+.ar4{
+  font-family:'AmiriBoldItalic' !important;
+}
+.ar5{
+  font-family:'Lateef' !important;
+}
+.ta1{
+  font-family:'BalooThambiRegular' !important;
+}
+.ta2{
+  font-family:'BalooThambiMedium' !important;
+}
+.ta3{
+  font-family:'BalooThambiSemiBold' !important;
+}
+.ta4{
+  font-family:'BalooThambiExtraBold' !important;
+}

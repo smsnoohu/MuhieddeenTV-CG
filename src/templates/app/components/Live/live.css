@@ -1,0 +1,56 @@
+.live{
+    padding: 5px 10px;
+    font:normal 20px 'philosophermedium', Tahoma, verdana, Arial;
+    color:var(--white);
+    border-radius: 2px;
+    position:absolute;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+.live.s1{
+    background: #f00;
+}
+.live:not(.s1) span{
+    color: rgba(255,255,255,.4);
+    display: inline-block;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        color: #f00;
+        text-shadow: 0 2px 10px rgba(255,0,0,1);
+    }
+    33.3%
+    {
+        color: #ff0;
+        text-shadow: 0 2px 10px rgba(255,255,0,1);
+    }
+    66.6%
+    {
+        color: #0f0;
+        text-shadow: 0 2px 10px rgba(0,255,0,1);
+    }
+    100%
+    {
+        color: #f00;
+        text-shadow: 0 2px 10px rgba(255,0,0,1);
+    }
+}
+.live span:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.live span:nth-child(2)
+{
+    animation-delay: 0.2s;
+}
+.live span:nth-child(3)
+{
+    animation-delay: 0.4s;
+}
+.live span:nth-child(4)
+{
+    animation-delay: 0.6s;
+}

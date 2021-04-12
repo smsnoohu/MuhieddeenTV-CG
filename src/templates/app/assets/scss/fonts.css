@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('./fonts/english/poppins-regular.woff2') format('woff2'),
+         url('./fonts/english/poppins-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'philosophermedium';
+    src: url('./fonts/english/poppins-medium.woff2') format('woff2'),
+         url('./fonts/english/poppins-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BalooThambiRegular';
+    src: url('./fonts/tamil/BalooThambi2-Regular.woff2') format('woff2'),
+    url('./fonts/tamil/BalooThambi2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BalooThambiRegular';
+    src: url('./fonts/tamil/BalooThambi2-Regular.woff2') format('woff2'),
+    url('./fonts/tamil/BalooThambi2-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BalooThambiMedium';
+    src: url('./fonts/tamil/BalooThambi2-Medium.woff2') format('woff2'),
+    url('./fonts/tamil/BalooThambi2-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BalooThambiExtraBold';
+    src: url('./fonts/tamil/BalooThambi2-ExtraBold.woff2') format('woff2'),
+    url('./fonts/tamil/BalooThambi2-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'BalooThambiSemiBold';
+    src: url('./fonts/tamil/BalooThambi2-SemiBold.woff2') format('woff2'),
+    url('./fonts/tamil/BalooThambi2-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmiriRegular';
+    src: url('./fonts/arabic/Amiri-Regular.woff2') format('woff2'),
+    url('./fonts/arabic/Amiri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmiriBold';
+    src: url('./fonts/arabic/Amiri-Bold.woff2') format('woff2'),
+    url('./fonts/arabic/Amiri-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmiriItalic';
+    src: url('./fonts/arabic/Amiri-Italic.woff2') format('woff2'),
+    url('./fonts/arabic/Amiri-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AmiriBoldItalic';
+    src: url('./fonts/arabic/Amiri-BoldItalic.woff2') format('woff2'),
+    url('./fonts/arabic/Amiri-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lateef';
+    src: url('./fonts/arabic/Lateef.woff2') format('woff2'),
+    url('./fonts/arabic/Lateef.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
