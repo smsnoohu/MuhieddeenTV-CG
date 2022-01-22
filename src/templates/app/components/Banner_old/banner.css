@@ -1,0 +1,83 @@
+.banner {
+    position:fixed;
+    bottom:30px;
+    left:0;
+    animation: animateBg 10s linear infinite;
+    background-image: linear-gradient(0deg,#cf5c5c,#af8b3e,#a9bb72,#87a824,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+    background-size: 100% 1100%;
+    height:100px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+@keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+}
+
+.title {
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: transparent;
+    font-size:20px;
+    text-align:center;
+    font-family: 'poppinsregular', "Source Sans Pro", sans-serif;
+    animation: reveal 3000ms ease-in-out forwards 200ms,
+                glow 2500ms linear infinite 2000ms;
+}
+.title span{
+    display:block;
+    padding-top:10px;
+}
+.sub-title{
+    font-size:20px;
+}
+.main-title{
+    font-size:30px;
+}
+@keyframes reveal {
+    80%{
+        letter-spacing: 8px;
+    }
+    100% {
+        background-size: 300% 300%;
+    }
+}
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 8px #fff;
+    }
+}
+
+/* Font Styles
+.ar1{
+    font-family:'AmiriRegular';
+}
+.ar2{
+    font-family:'AmiriBold';
+}
+.ar3{
+    font-family:'AmiriItalic';
+}
+.ar4{
+    font-family:'AmiriBoldItalic';
+}
+.ar5{
+    font-family:'Lateef';
+}
+.ta1{
+    font-family:'BalooThambiRegular';
+}
+.ta2{
+    font-family:'BalooThambiMedium';
+}
+.ta3{
+    font-family:'BalooThambiSemiBold';
+}
+.ta4{
+    font-family:'BalooThambiExtraBold';
+} */

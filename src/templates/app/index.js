@@ -29,9 +29,10 @@ export default class MuhieddeenTV extends React.Component {
 
         {waterMark && waterMark.toLowerCase() === 'off' ? ( null ) : ( <WaterMark data={this.props.data} /> )}
 
-        {banner && banner.toLowerCase() === 'on' && <Banner data={this.props.data} />}
+        {/* {banner && banner.toLowerCase() === 'on' && <Banner data={this.props.data} />} */}
 
         {news && news.toLowerCase() === 'on' && <NewsScroller data={this.props.data} />}
+        <Banner data={this.props.data} />
         
       </>
     )

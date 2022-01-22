@@ -7,7 +7,7 @@
     width:100%;
     text-align:center;
 }
-.watermark:before, .watermark:after{
+/* .watermark:before, .watermark:after{
     position:absolute;
     content:attr(data-text);
 }
@@ -16,4 +16,4 @@
 }
 .watermark:after{
     right:50px;
-}
+} */

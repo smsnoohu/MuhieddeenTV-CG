@@ -3,35 +3,43 @@ import React from 'react';
 import './banner.css';
 
 const Banner = props => {
-    const { bannerH, bannerY, bannerText1, bannerText2, bannerSize, bannerFont, bannerText1Font, bannerText2Font } = props.data;
+    const { waterMarkX, waterMarkY, waterMarkO, waterMarkText, waterMarkSize } = props.data;
 
-    return(
-        <div
-            className={`banner ${bannerFont ? bannerFont.toLowerCase() : ''}`}
-            style={{
-                height: bannerH && bannerH !== 0 ? bannerH + 'px' : '',
-                bottom: bannerY + 'px'
-            }}
-        >
-            <div className="title">
-                {bannerText1 && 
-                    <span
-                        className={`sub-title ${bannerText1Font ? bannerText1Font.toLowerCase() : ''}`}
-                        style={{
-                            fontSize: bannerSize && bannerSize !== 0 ? bannerSize * 10 + 'px' : ''
-                        }}
-                    >{bannerText1}</span>
-                }
-                {bannerText2 &&
-                    <span
-                        className={`main-title ${bannerText2Font ? bannerText2Font.toLowerCase() : ''}`}
-                        style={{
-                            fontSize: bannerSize && bannerSize !== 0 ? bannerSize * 20 + 'px' : ''
-                        }}
-                    >{bannerText2}</span>
-                }
+    return (
+        <div className="banner-wrapper">
+            <div className="banner-container">
+                <div id="mainDiv">
+                    <div id="boxDiv" className="top">
+                        <div id="front" data-content="Live"></div>
+                        <div id="back" data-content="Live"></div>
+                        <div id="left" data-content="Majlis"></div>
+                        <div id="right" data-content="Majlis"></div>
+                        <div id="top"></div>
+                        <div id="bottom"></div>
+                    </div>
+                    <div id="boxDiv">
+                        <div id="front"></div>
+                        <div id="back"></div>
+                        <div id="left"></div>
+                        <div id="right"></div>
+                        <div id="top"></div>
+                        <div id="bottom"></div>
+                        
+                        {/* <div class="shadow"></div> */}
+                    </div>
+                    <div id="boxDiv" className="bottom">
+                        <div id="front" data-content="Majlis"></div>
+                        <div id="back" data-content="Majlis"></div>
+                        <div id="left" data-content="Live"></div>
+                        <div id="right" data-content="live"></div>
+                        <div id="top"></div>
+                        <div id="bottom"></div>
+                    </div>
+                </div>
+                <div className="banner-title">Welcome to MuhieddeenTV</div>
             </div>
-        </div>
+            <div className="main-bg"></div>
+        </div> 
     )
 }
 
